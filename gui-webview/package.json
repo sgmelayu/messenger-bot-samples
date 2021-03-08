@@ -41,7 +41,7 @@
     "jade": "~1.11.0",
     "lodash": "^4.17.19",
     "morgan": "~1.9.1",
-    "nodemon": "^1.11.0",
+    "nodemon": "^2.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-weui": "^1.0.3",
