@@ -31,7 +31,7 @@
     "lodash": "^4.17.19",
     "morgan": "^1.7.0",
     "recess": "^1.1.9",
-    "request": "^2.79.0",
+    "request": "^2.87.0",
     "serve-favicon": "^2.3.2",
     "uuid": "^3.0.1"
   },
