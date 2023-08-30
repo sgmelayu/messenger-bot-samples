@@ -1,0 +1,135 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:debug:20170905'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:debug:20170905'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug
+  'npm:hoek:20180212':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom
+          > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom >
+          hoek
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp
+          > hoek
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp >
+          hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > boom > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > sntp > hoek
+  'npm:ms:20170412':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:ms:20170412'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:ms:20170412'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug > ms
+  'npm:qs:20170213':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:qs:20170213'
+        path: babel-cli > chokidar > fsevents > node-pre-gyp > request > qs
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:qs:20170213'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > qs
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          qs
+  'npm:tough-cookie:20170905':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tough-cookie:20170905'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - babel-cli > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          babel-cli > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: nodemon > chokidar > fsevents > node-pre-gyp > request > tunnel-agent
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T14:59:00.998Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
