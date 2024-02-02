@@ -21,7 +21,7 @@
     "babel": "^6.5.2",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
-    "babel-preset-latest": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-0": "^6.22.0",
     "body-parser": "^1.16.0",
     "cookie-parser": "^1.4.3",
@@ -31,7 +31,7 @@
     "lodash": "^4.17.19",
     "morgan": "^1.7.0",
     "recess": "^1.1.9",
-    "request": "^2.79.0",
+    "request": "^2.88.2",
     "serve-favicon": "^2.3.2",
     "uuid": "^3.0.1"
   },
